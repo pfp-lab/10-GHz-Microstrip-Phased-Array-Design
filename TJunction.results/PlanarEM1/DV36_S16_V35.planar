@@ -1,0 +1,366 @@
+$begin 'Solution'
+	$begin 'NetworkDataSolution'
+		ObjectType='Modal'
+		SolutionType='InterpolateNeville'
+		Name='Fast Sweep: 9.0000 - 11.0000 (GHz)'
+		AdaptivePass=-1
+		$begin 'Frequencies'
+			$begin 'DataPoint'
+				Frequency=9000000000
+				DataType='None'
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(-0.004334285917181574, -0.06236489454105654)
+						c(0.6144973750204115, 0.2816334948153629)
+						c(0.6145028133825288, 0.2816347236844219)
+					$end 'r0'
+					$begin 'r1'
+						c(0.6144973750204115, 0.2816334948153629)
+						c(-0.1862134416309838, 0.4068252470152766)
+						c(0.1924753385994997, -0.4527178294338108)
+					$end 'r1'
+					$begin 'r2'
+						c(0.6145028133825288, 0.2816347236844219)
+						c(0.1924753385994997, -0.4527178294338108)
+						c(-0.1862083792986555, 0.4068188487153127)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(50.25669007566902, 0.8827834040403276)
+						c(50.25669007566902, 0.8827834040403276)
+						c(50.25669007566902, 0.8827834040403276)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.03086869732467228, 1.717435110552394)
+						c(0.03086869732467228, 1.717435110552394)
+						c(0.03086869732467228, 1.717435110552394)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+			$begin 'DataPoint'
+				Frequency=9340000000.000011
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(0.004826957418935296, -0.05449768169503522)
+						c(0.6613126802928939, 0.1311405398350385)
+						c(0.6613178068660035, 0.1311403142412815)
+					$end 'r0'
+					$begin 'r1'
+						c(0.6613126802928939, 0.1311405398350385)
+						c(-0.08870474144399354, 0.4369233954485515)
+						c(0.06297411774708281, -0.4862997564978087)
+					$end 'r1'
+					$begin 'r2'
+						c(0.6613178068660035, 0.1311403142412815)
+						c(0.06297411774708281, -0.4862997564978087)
+						c(-0.08870160241543612, 0.4369167824453905)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(50.12713033160667, 0.9627262457428898)
+						c(50.12713033160667, 0.9627262457428898)
+						c(50.12713033160667, 0.9627262457428898)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.03281317958178132, 1.71920400480048)
+						c(0.03281317958178132, 1.71920400480048)
+						c(0.03281317958178132, 1.71920400480048)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+			$begin 'DataPoint'
+				Frequency=10000000000.00003
+				DataType='None'
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(0.02743246269056121, -0.06225909529474261)
+						c(0.6468979045607104, -0.1714223145364963)
+						c(0.6469015666369109, -0.1714242805403144)
+					$end 'r0'
+					$begin 'r1'
+						c(0.6468979045607104, -0.1714223145364963)
+						c(0.107961697217751, 0.4302579651798815)
+						c(-0.1908961796636829, -0.4510742266875094)
+					$end 'r1'
+					$begin 'r2'
+						c(0.6469015666369109, -0.1714242805403144)
+						c(-0.1908961796636829, -0.4510742266875094)
+						c(0.1079614006434, 0.4302524552664409)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(49.87045623632697, 1.123546905272888)
+						c(49.87045623632697, 1.123546905272888)
+						c(49.87045623632697, 1.123546905272888)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.0363905810778585, 1.722470210157295)
+						c(0.0363905810778585, 1.722470210157295)
+						c(0.0363905810778585, 1.722470210157295)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+			$begin 'DataPoint'
+				Frequency=10500000000.00004
+				DataType='None'
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(0.03595184338394844, -0.08836555643435623)
+						c(0.5469710458682806, -0.3769601526127774)
+						c(0.5469736065309109, -0.3769624391568749)
+					$end 'r0'
+					$begin 'r1'
+						c(0.5469710458682806, -0.3769601526127774)
+						c(0.2452171895589287, 0.3684072235514053)
+						c(-0.3529709894844148, -0.3425162247560443)
+					$end 'r1'
+					$begin 'r2'
+						c(0.5469736065309109, -0.3769624391568749)
+						c(-0.3529709894844148, -0.3425162247560443)
+						c(0.2452150158945209, 0.3684036207606505)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(49.67142044093551, 1.248194975799312)
+						c(49.67142044093551, 1.248194975799312)
+						c(49.67142044093551, 1.248194975799312)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.0388494085763634, 1.724826948085639)
+						c(0.0388494085763634, 1.724826948085639)
+						c(0.0388494085763634, 1.724826948085639)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+			$begin 'DataPoint'
+				Frequency=10740000000.00005
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(0.03394117681783898, -0.1053035793056157)
+						c(0.4756639015692008, -0.4598900722736028)
+						c(0.475666107399854, -0.4598923171884891)
+					$end 'r0'
+					$begin 'r1'
+						c(0.4756639015692008, -0.4598900722736028)
+						c(0.3022989380335941, 0.3227393256369699)
+						c(-0.4133427937341594, -0.2698725916188289)
+					$end 'r1'
+					$begin 'r2'
+						c(0.475666107399854, -0.4598923171884891)
+						c(-0.4133427937341594, -0.2698725916188289)
+						c(0.3022961844958644, 0.3227368665894976)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(49.57428423264248, 1.308203197023701)
+						c(49.57428423264248, 1.308203197023701)
+						c(49.57428423264248, 1.308203197023701)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.03993156544706335, 1.725935271087237)
+						c(0.03993156544706335, 1.725935271087237)
+						c(0.03993156544706335, 1.725935271087237)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+			$begin 'DataPoint'
+				Frequency=11000000000.00006
+				DataType='None'
+				$begin 'SMatrix'
+					m=3
+					n=3
+					$begin 'r0'
+						c(0.02598498270493971, -0.1251377731841226)
+						c(0.3845793734546916, -0.5346416267274073)
+						c(0.384581372136881, -0.5346437852408074)
+					$end 'r0'
+					$begin 'r1'
+						c(0.3845793734546916, -0.5346416267274073)
+						c(0.3551010057244594, 0.2630190940553067)
+						c(-0.4625837235056216, -0.179644324113431)
+					$end 'r1'
+					$begin 'r2'
+						c(0.384581372136881, -0.5346437852408074)
+						c(-0.4625837235056216, -0.179644324113431)
+						c(0.3550978773340193, 0.2630179788781375)
+					$end 'r2'
+				$end 'SMatrix'
+				$begin 'PortImpedance'
+					n=3
+					$begin 'r0'
+						c(49.46791115734978, 1.37295086145965)
+						c(49.46791115734978, 1.37295086145965)
+						c(49.46791115734978, 1.37295086145965)
+					$end 'r0'
+				$end 'PortImpedance'
+				$begin 'Gamma'
+					n=3
+					$begin 'r0'
+						c(0.04102174939883794, 1.727125196273947)
+						c(0.04102174939883794, 1.727125196273947)
+						c(0.04102174939883794, 1.727125196273947)
+					$end 'r0'
+				$end 'Gamma'
+				$begin 'TerminalTransform'
+					m=3
+					n=3
+					$begin 'r0'
+						c(1, 0)
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(1, 0)
+						c(0, 0)
+					$end 'r1'
+					$begin 'r2'
+						c(0, 0)
+						c(0, 0)
+						c(1, 0)
+					$end 'r2'
+				$end 'TerminalTransform'
+			$end 'DataPoint'
+		$end 'Frequencies'
+		$begin 'Ports'
+			Port(ModalEntryName='Port1', TerminalEntryName='Port1', PortName='Port1', Mode=1, ModeName='+', TerminalName='', ParameterName='', MatrixIndex=0)
+			Port(ModalEntryName='Port2', TerminalEntryName='Port2', PortName='Port2', Mode=1, ModeName='+', TerminalName='', ParameterName='', MatrixIndex=1)
+			Port(ModalEntryName='Port3', TerminalEntryName='Port3', PortName='Port3', Mode=1, ModeName='+', TerminalName='', ParameterName='', MatrixIndex=2)
+		$end 'Ports'
+		HigherOrderMode=false
+		PortNames('Port1', 'Port2', 'Port3')
+		PortModes(1, 1, 1)
+	$end 'NetworkDataSolution'
+	DeltaNorm=0
+	UniqueId='SetupID=15 SetupVersionID=35 Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $EL=\\\'8\\\' $H70=\\\'9.165mm\\\' $HCL=\\\'5mm\\\' $HEL=\\\'10mm\\\' $HL=\\\'8.965mm\\\' $HLA=\\\'3mm\\\' $HLine=\\\'10mm\\\' $W70=\\\'0.9346mm\\\' $WCL=\\\'2mm\\\' $WEL=\\\'3mm\\\' $WL=\\\'1.684mm\\\' $WLA=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\'\' SolutionID=16 SolutionVersionID=35'
+$end 'Solution'

@@ -1,0 +1,82 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000007, day=000000000003, hour=000000000018, min=000000000046, sec=000000000007)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004032, lin=000000000061, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Planar EM'
+	CircuitName='PlanarEM1'
+	VersionID=125
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=126
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.165mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.5095mm\' $HL=\'8.965mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'17.93mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'8.965mm\'', ID=121)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $EL=\\\'8\\\' $H70=\\\'9.165mm\\\' $HCL=\\\'5mm\\\' $HEL=\\\'10mm\\\' $HHL=\\\'7.5095mm\\\' $HL=\\\'8.965mm\\\' $HLA=\\\'3mm\\\' $HLine=\\\'10mm\\\' $VHL=\\\'17.93mm\\\' $W70=\\\'0.9346mm\\\' $WCL=\\\'2mm\\\' $WEL=\\\'3mm\\\' $WL=\\\'1.684mm\\\' $WLA=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\' $YHL=\\\'8.965mm\\\'\', Solution=-2, VersionID=125)'='SolutionBlock7'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $EL=\\\'8\\\' $H70=\\\'9.165mm\\\' $HCL=\\\'5mm\\\' $HEL=\\\'10mm\\\' $HHL=\\\'7.5095mm\\\' $HL=\\\'8.965mm\\\' $HLA=\\\'3mm\\\' $HLine=\\\'10mm\\\' $VHL=\\\'17.93mm\\\' $W70=\\\'0.9346mm\\\' $WCL=\\\'2mm\\\' $WEL=\\\'3mm\\\' $WL=\\\'1.684mm\\\' $WLA=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\' $YHL=\\\'8.965mm\\\'\', Solution=16, VersionID=125)'='SolutionBlock6'
+	'SolutionKey(SimSetup=15, Instance=\'SetupDefinition\', Solution=-1, VersionID=125)'='SolutionBlock9'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=16, VersionID=125)'='SolutionBlock8'
+$end 'BlockMapName'
+$begin 'SolutionBlock8'
+	SolutionName='9To11'
+	SolutionID=16
+	V=125
+	$begin 'States'
+		F(VID=121, Ver=125)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(9000000000, 9100000000, 9200000000, 9300000000, 9400000000, 9500000000, 9600000000, 9700000000, 9800000000, 9900000000, 10000000000, 10100000000, 10200000000, 10300000000, 10400000000, 10500000000, 10600000000, 10700000000, 10800000000, 10900000000, 11000000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=-1
+	Currents=false
+$end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	SimSetupID=15
+	SimSetupName='Setup 1'
+	VersionID=125
+$end 'SolutionBlock9'
+$begin 'SolutionBlock7'
+	$begin 'ProfileGroup'
+		StartInfo='30/06/2025 01:17:10; Host: LAPTOP-6DOGLMU3; Processors: 8; O/S: NT 6.2; Memory: 4095M (680M)'
+		TotalInfo=''
+		ProfileTask('Advanced Settings:', 0, 0, 0, 'Accuracy level 2; Maximum direct solver size is 3000; Maximum iterative solver size is 6000; Maximum number of RHS in block iterative solver reset to 10; ', false, true)
+		ProfileTask('Fast Frequency Sweep', 0, 0, 0, '', false, true)
+		ProfileTask('9.000000', 7, 6, 135952, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('11.000000', 4, 4, 135936, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('9.980000', 4, 3, 135940, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('10.500000', 5, 4, 136008, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('9.420000', 4, 3, 135960, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('9.100000', 4, 3, 135948, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('10.740000', 4, 3, 127536, '962 Unknowns; 742 Triangles', true, true)
+		ProfileTask('10.860000', 5, 4, 127532, '962 Unknowns; 742 Triangles', true, true)
+	$end 'ProfileGroup'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock6'
+	VariationDataID=-1
+	File='DV121_S16_V125.planar'
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock6(pos=3936, lin=57, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=916, lin=13, lvl=0)
+		SolutionBlock8(pos=2120, lin=20, lvl=0)
+		SolutionBlock9(pos=2676, lin=36, lvl=0)
+		SolutionBlock7(pos=2776, lin=41, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4032, lin=61, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,3311 @@
+$begin 'AnsoftProject'
+	Created='Tue Nov 24 15:31:39 2020'
+	Product='Designer'
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'Desktop'
+		Version(3, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'CircuitEnvironment'
+		Version(1, 0)
+	$end 'CircuitEnvironment'
+	$begin 'SystemEnvironment'
+		Version(1, 0)
+	$end 'SystemEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=147
+		GPortCounter=0
+		NetCounter=35
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	$begin 'GlobalVariables'
+		VariableProp('$WPatch', 'UHD', '', '(8.14*0.9990) mm')
+		VariableProp('$WLine', 'UHD', '', '1.684mm')
+		VariableProp('$DInset', 'UHD', '', '(2.699/0.999) mm')
+		VariableProp('$HLine', 'UHD', '', '(10*0.98) mm')
+		VariableProp('$DIns', 'UHD', '', '2.584')
+		VariableProp('$WCL', 'UHD', '', '2mm')
+		VariableProp('$HCL', 'UHD', '', '5mm')
+		VariableProp('$EL', 'UHD', '', '8')
+		VariableProp('$WEL', 'UHD', '', '3mm')
+		VariableProp('$HEL', 'UHD', '', '10mm')
+		VariableProp('$WLA', 'UHD', '', '10mm')
+		VariableProp('$HLA', 'UHD', '', '3mm')
+		VariableProp('$WL', 'UD', '', '1.884mm')
+		VariableProp('$W70', 'UD', '', '1.1346mm')
+		VariableProp('$HL', 'UD', '', '(8.984*0.98) mm')
+		VariableProp('$H70', 'UD', '', '(9.138*0.98) mm')
+		VariableProp('$YHL', 'UD', '', '9.134mm')
+		VariableProp('$VHL', 'UD', '', '18.268mm')
+		VariableProp('$HHL', 'UD', '', '(7.152*0.98) mm')
+	$end 'GlobalVariables'
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1104, 10000, 1, 1, 0, false, false)
+			Materials(1104, 9500, 9, 2, 1, false, false)
+			Scripts(1104, 9501, 33500, 3, 1, false, false)
+			Components(1104, 9000, 8, 102, 1, false, false)
+			Symbols(1104, 9001, 10, 103, 1, false, false)
+			Footprints(1104, 9002, 11, 104, 1, false, false)
+			Padstacks(1104, 9003, 12, 105, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				permeability='0.999991'
+				conductivity='58000000'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'copper'
+			$begin 'Rogers RT/duroid 5880 (tm)'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				permittivity='2.2'
+				dielectric_loss_tangent='0.0009'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'Rogers RT/duroid 5880 (tm)'
+			$begin 'Arlon DiClad 870 (tm)'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				permittivity='2.33'
+				dielectric_loss_tangent='0.0013'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'Arlon DiClad 870 (tm)'
+			$begin 'Arlon 25FR (tm)'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				permittivity='3.43'
+				dielectric_loss_tangent='0.0035'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'Arlon 25FR (tm)'
+			$begin 'Arlon 25FR (tm) Array'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				permittivity='3.58'
+				dielectric_loss_tangent='0.0035'
+				ModTime=1607601054
+				Library=''
+				LibLocation='Project'
+			$end 'Arlon 25FR (tm) Array'
+		$end 'Materials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'PlanarEM1'
+				ModTime=1606228139
+				Library=''
+				LibLocation='Project'
+				HighestLevel=0
+				InitialLevels(0)
+				$begin 'PinDef'
+					Pin('Port1', -0.00508, 0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 0, Text(-0.00508, 0.003175, 0, 4, 5, false, 'Arial', 0, 'Port1'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, 0, 0.00508, 0.01016)
+				$end 'Graphics'
+			$end 'PlanarEM1'
+		$end 'Symbols'
+		$begin 'Footprints'
+		$end 'Footprints'
+		$begin 'Padstacks'
+			$begin 'PlanarEMVia'
+				ModTime=1606228139
+				Library=''
+				LibLocation='Project'
+				$begin 'HoleDefinition'
+					Name='PlanarEMHole'
+					Cl=0
+					circle(0.001)
+				$end 'HoleDefinition'
+				$begin 'Layers'
+				$end 'Layers'
+				$begin 'Pads'
+				$end 'Pads'
+			$end 'PlanarEMVia'
+		$end 'Padstacks'
+		$begin 'SimulationModels'
+		$end 'SimulationModels'
+		$begin 'DefInfo'
+			PlanarEM1(4294967295, 1, '', 1606228139, '', 'PlanarEM1', '', '', '', '', '', '', '', 'Project', '', '', 1606228139)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'PlanarEM1'
+				Refbase='U'
+				NumParts=1
+				OriginalComponent=''
+				Terminal('Port1', 'Port1', 'A', false, 0, 0, 1, 'Conservative', 'Electrical', 'InOut')
+				$begin 'Parameters'
+					TextProp('ModelName', 'HD', '', 'FieldSolver')
+				$end 'Parameters'
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'PlanarEM1')
+					TextProp('Owner', 'SRD', '', 'Planar EM')
+				$end 'Properties'
+			$end 'PlanarEM1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=169
+	MoveBackwards=false
+	$begin 'PlanarEMCircuit'
+		Name='PlanarEM1'
+		DesignID=0
+		$begin 'Circuit'
+			ComponentName='PlanarEM1'
+			AutoFP=''
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			$begin 'IPort'
+				PortName='Port1'
+				Public=true
+				Connectible=false
+				UnconnectedAction=1
+			$end 'IPort'
+			$begin 'Net'
+				NetName='Port1'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				$begin 'Quantities'
+					QuantityProp('V', 'D', '', '0', 'Free', 'Out', 'BeforeAnalogSolver')
+					QuantityProp('dV', 'D', '', '0', 'Free', 'Out', 'BeforeAnalogSolver')
+				$end 'Quantities'
+				NetInterfacePorts='Port1'
+			$end 'Net'
+		$end 'Circuit'
+		$begin 'Schematic'
+			PPortCounter=0
+			$begin 'Page'
+				PageSize('A')
+				PageNumber=1
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '1', 'Port1', 5, 0, 0, 0, false, 'defaultinterfaceport')
+					$begin 'PropDisplayMap'
+						PortName(2, 5, 0, Text(0.00127, 0, 0, 1, 5, false, 'Arial', 0, 'Port1'))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'PageNet'
+					NetName='Port1'
+					ID=7
+					Interface('Port1', 5)
+				$end 'PageNet'
+				$begin 'Properties'
+					TextProp('Title', 'SD', '', '<Page Title>')
+					TextProp('Author', 'SD', '', '')
+				$end 'Properties'
+			$end 'Page'
+			GridSetup('1000mil', '100mil', 16772075, 16774645, true, true, 16777215, Origin(x='0mm', y='0mm'), PageSize(x='0mm', y='0mm'), Margins(x='0mm', y='0mm'), 0, 0)
+			hasWindowBeenOpened=false
+		$end 'Schematic'
+		$begin 'Layout'
+			BlackBox=false
+			DefUnits='mm'
+			NIdx=3172
+			$begin 'Lyrs'
+				Layer(N='Measures', ID=0, T='measures', Col=4144959, Pat=1)
+				Layer(N='Rats', ID=1, T='rat', Col=16711680, Pat=1)
+				Layer(N='Errors', ID=2, T='error', Col=255, Pat=2, L=true)
+				Layer(N='Symbols', ID=3, T='symbol', Col=8323199, Pat=0)
+				SLayer(Layer(N='trace', ID=6, T='signal', Col=32512, Pat=3), Elev='mid', SubL(Th='0mm', LElev='0.762mm', R='0mm', Mat='copper'))
+				SLayer(Layer(N='substrato', ID=5, T='dielectric', Col=127, Pat=2), Elev='none', SubL(Th='0.762mm', LElev='0mm', R='0mm', Mat='Arlon 25FR (tm) Array'))
+				SLayer(Layer(N='ground', ID=4, T='metalizedsignal', Col=4144959, Pat=4), Elev='mid', SubL(Th='0mm', LElev='0mm', R='0mm', Mat='copper'))
+			$end 'Lyrs'
+			ActLyr='trace'
+			Tol(2e-009, 1e-008, 1e-012)
+			$begin 'Prims'
+				rect(Id=7, Lyr=6, N='rect_2492', x='-95.2383993294063mm', y='48.8526066280668mm', w='$WL', h='$HHL', ang='-450deg', Vds())
+				rect(Id=12, Lyr=6, N='rect_2493', x='-118.702689329406mm', y='48.8526066280668mm', w='$WL', h='$HHL', ang='-450deg', Vds())
+				poly(Id=13, Lyr=6, N='poly_2494', Num=4, U='mm', x=-67.5968693294063, y=47.9106066280668, x=-65.9128693294063, y=49.5946066280668, x=-65.9128693294063, y=55.3606066280668, x=-67.5968693294063, y=57.0446066280668, x=-67.5968693294063, y=47.9106066280668, Vds())
+				poly(Id=14, Lyr=6, N='poly_2495', Num=4, U='mm', x=-129.961889329406, y=39.5309866280668, x=-128.277889329406, y=37.8469866280668, x=-110.864389329406, y=37.8469866280668, x=-110.864389329406, y=39.5309866280668, x=-129.961889329406, y=39.5309866280668, Vds())
+				poly(Id=15, Lyr=6, N='poly_2496', Num=4, U='mm', x=-73.9510693294063, y=64.2946066280668, x=-73.9510693294063, y=56.8446066280668, x=-72.2670693294063, y=55.1606066280668, x=-72.2670693294063, y=64.2946066280668, x=-73.9510693294063, y=64.2946066280668, Vds())
+				poly(Id=16, Lyr=6, N='poly_2497', Num=4, U='mm', x=-101.909149329406, y=37.8469866280668, x=-84.4956493294063, y=37.8469866280668, x=-82.8116493294063, y=39.5309866280668, x=-101.909149329406, y=39.5309866280668, x=-101.909149329406, y=37.8469866280668, Vds())
+				rect(Id=17, Lyr=6, N='rect_2498', x='-0.141090244329406meter', y='56.1026066280668mm', w='$WL', h='2.3351mm/2', ang='-450deg', Vds())
+				rect(Id=21, Lyr=6, N='rect_2499', x='-106.386769329406mm', y='38.6889866280668mm', w='$W70', h='$H70', ang='-450deg', Vds())
+				rect(Id=22, Lyr=6, N='rect_2500', x='-83.7536493294063mm', y='48.8526066280668mm', w='$W70', h='$H70', ang='-450deg', Vds())
+				rect(Id=27, Lyr=6, N='rect_2501', x='-0.0969915543294063meter', y='56.1026066280668mm', w='$WL', h='(2.3351mm/2)*3', ang='-450deg', Vds())
+				rect(Id=28, Lyr=6, N='rect_2502', x='-0.0699319693294063meter', y='56.1026066280668mm', w='$WL', h='(2.3351mm/2)*4', ang='-450deg', Vds())
+				rect(Id=33, Lyr=6, N='rect_2503', x='-0.134081284329406meter', y='48.8526066280668mm', w='$WL', h='2.3351mm/2', ang='-450deg', Vds())
+				rect(Id=34, Lyr=6, N='rect_2504', x='-129.019889329406mm', y='48.8526066280668mm', w='$W70', h='$H70', ang='-450deg', Vds())
+				rect(Id=35, Lyr=6, N='rect_2505', x='-0.0837536493294063meter', y='43.9081466280668mm', w='$WL', h='$HL-0.050mm', ang='-540deg', Vds())
+				rect(Id=36, Lyr=6, N='rect_2506', x='-0.123374719329406meter', y='48.8526066280668mm', w='$WL', h='2.3351mm', ang='-450deg', Vds())
+				rect(Id=44, Lyr=6, N='rect_2507', x='-0.0899825943294063meter', y='48.8526066280668mm', w='$WL', h='(2.3351mm/2)*3', ang='-450deg', Vds())
+				rect(Id=45, Lyr=6, N='rect_2508', x='-0.0769409293294063meter', y='48.8526066280668mm', w='$WL', h='(2.3351mm/2)*4', ang='-450deg', Vds())
+				rect(Id=49, Lyr=6, N='rect_2509', x='-0.116365759329406meter', y='56.1026066280668mm', w='$WL', h='2.3351mm', ang='-450deg', Vds())
+				rect(Id=50, Lyr=6, N='rect_2510', x='-138.169539329406mm', y='48.8526066280668mm', w='$WL', h='$HHL', ang='-450deg', Vds())
+				rect(Id=53, Lyr=6, N='rect_2511', x='-71.1013493294063mm', y='48.8526066280668mm', w='$WL', h='$HHL', ang='-450deg', Vds())
+				rect(Id=54, Lyr=6, N='rect_2512', x='-0.129019889329406meter', y='43.9081466280668mm', w='$WL', h='$HL-0.050mm', ang='-540deg', Vds())
+				rect(Id=55, Lyr=6, N='rect_2513', x='-106.386769329406mm', y='0.0337195266280668meter', w='$WL', h='$HL', ang='-540deg', Vds())
+				poly(Id=56, Lyr=6, N='poly_2514', Num=3, U='mm', x=-119.14304, y=57.73048, x=-119.186731463963, y=57.6834596759642, x=-119.199231139362, y=57.6830471421285, x=-119.14304, y=57.73048, Vds())
+				poly(Id=57, Lyr=6, N='poly_2515', Num=4, U='mm', x=-143.358019329406, y=49.5946066280668, x=-141.674019329406, y=47.9106066280668, x=-141.674019329406, y=57.0446066280668, x=-143.358019329406, y=55.3606066280668, x=-143.358019329406, y=49.5946066280668, Vds())
+				poly(Id=58, Lyr=6, N='poly_2516', Num=4, U='mm', x=-115.198209329406, y=57.0446066280668, x=-115.198209329406, y=47.9106066280668, x=-113.514209329406, y=49.5946066280668, x=-113.514209329406, y=55.3606066280668, x=-115.198209329406, y=57.0446066280668, Vds())
+				poly(Id=59, Lyr=6, N='poly_2517', Num=4, U='mm', x=-100.426879329406, y=55.3606066280668, x=-100.426879329406, y=49.5946066280668, x=-98.7428793294063, y=47.9106066280668, x=-98.7428793294063, y=57.0446066280668, x=-100.426879329406, y=55.3606066280668, Vds())
+				poly(Id=60, Lyr=6, N='poly_2518', Num=4, U='mm', x=-95.2402293294063, y=64.2946066280668, x=-95.2402293294063, y=55.1606066280668, x=-93.5562293294063, y=56.8446066280668, x=-93.5562293294063, y=64.2946066280668, x=-95.2402293294063, y=64.2946066280668, Vds())
+				poly(Id=61, Lyr=6, N='poly_2519', Num=4, U='mm', x=-140.506469329406, y=64.2946066280668, x=-140.506469329406, y=55.1606066280668, x=-138.822469329406, y=56.8446066280668, x=-138.822469329406, y=64.2946066280668, x=-140.506469329406, y=64.2946066280668, Vds())
+				poly(Id=62, Lyr=6, N='poly_2520', Num=4, U='mm', x=-119.217309329406, y=64.2946066280668, x=-119.217309329406, y=56.8446066280668, x=-117.533309329406, y=55.1606066280668, x=-117.533309329406, y=64.2946066280668, x=-119.217309329406, y=64.2946066280668, Vds())
+				rect(Id=2, Lyr=6, N='rect_2699', x='-139.664469329406mm', y='65.6588349263651mm', w='$WPatch-0.050mm', h='$WPatch', Vds('rect void'(Id=-1, Lyr=6, N='rect void_2700', x='-0.139664469329406meter', y='-$WPatch/2 + $DInset/2 + 0.0656588349263651', w='3*$WLine+0.085mm', h='$DInset')))
+				rect(Id=24, Lyr=6, N='rect_2874', x='-118.375309329406mm', y='65.6588349263651mm', w='$WPatch-0.050mm', h='$WPatch', Vds('rect void'(Id=42, Lyr=6, N='rect void_2875', x='-0.118375309329406meter', y='-$WPatch/2 + $DInset/2 + 0.0656588349263651', w='3*$WLine+0.085mm', h='$DInset')))
+				rect(Id=25, Lyr=6, N='rect_2878', x='-94.3982293294063mm', y='65.6588349263651mm', w='$WPatch-0.050mm', h='$WPatch', Vds('rect void'(Id=43, Lyr=6, N='rect void_2879', x='-0.0943982293294063meter', y='-$WPatch/2 + $DInset/2 + 0.0656588349263651', w='3*$WLine+0.085mm', h='$DInset')))
+				rect(Id=26, Lyr=6, N='rect_2882', x='-73.1805893294063mm', y='65.6588349263651mm', w='$WPatch-0.050mm', h='$WPatch', Vds('rect void'(Id=46, Lyr=6, N='rect void_2883', x='-0.0731805893294063meter', y='-$WPatch/2 + $DInset/2 + 0.0656588349263652', w='3*$WLine+0.085mm', h='$DInset')))
+			$end 'Prims'
+			$begin 'EPorts'
+				$begin 'EP'
+					LP(Id=68, PropDisps(PD(Id=-1, PN='InterfacePort', DispTyp='v', Style='<DefaultAnnotation>', Lyr=3, N='text_2537', x='0meter', y='0meter', F='Arial', Siz='12000mm', Wght=3, Just=4, Txt='Port1')), N='Port1')
+					Ei(55, 0)
+				$end 'EP'
+			$end 'EPorts'
+			$begin 'Nets'
+				$begin 'Net'
+					N='Port1'
+					Con(68)
+				$end 'Net'
+			$end 'Nets'
+		$end 'Layout'
+		$begin 'Rule Set'
+			$begin 'Data'
+			$end 'Data'
+			$begin 'DRCSolutionMgr'
+			$end 'DRCSolutionMgr'
+		$end 'Rule Set'
+		$begin 'Port'
+			$begin 'Data'
+				$begin 'Port1'
+					DataId='Port0'
+					$begin 'Properties'
+						PortSolver='true'
+						Phase='0deg'
+						Magnitude='1mA'
+						Impedance='50ohm'
+						Theta='0deg'
+						Phi='0deg'
+						PostProcess='false'
+						Renormalize='50ohm + 0i ohm'
+						Deembed='0mm'
+						RefToGround='false'
+					$end 'Properties'
+					Type='EdgePort'
+					Arms=1
+					IsGapSource=true
+					UpperProbe=false
+					LayoutObject='Port1'
+					Pin=''
+					ReferencePort=''
+				$end 'Port1'
+			$end 'Data'
+		$end 'Port'
+		$begin 'n-port'
+			$begin 'Data'
+			$end 'Data'
+		$end 'n-port'
+		$begin 'Cavity'
+			$begin 'Data'
+			$end 'Data'
+		$end 'Cavity'
+		$begin 'Via'
+			$begin 'Data'
+			$end 'Data'
+		$end 'Via'
+		$begin 'LayoutVia'
+			$begin 'Data'
+			$end 'Data'
+		$end 'LayoutVia'
+		$begin '3D Via'
+			$begin 'Data'
+			$end 'Data'
+		$end '3D Via'
+		$begin 'X-Layer Plate'
+			$begin 'Data'
+			$end 'Data'
+		$end 'X-Layer Plate'
+		$begin 'Setup'
+			$begin 'Data'
+				$begin 'Setup 1'
+					DataId='Setup0'
+					PercentRefinementPerPass=25
+					AdaptiveFrequency='10GHz'
+					NumberOfRequestedPasses=10
+					TargetMaximumDeltaNorm=0.05
+					DefaultFixedFreq=false
+					DefaultAdaptiveFreq=true
+					Refine=false
+					Frequency='12GHz'
+					LambdaRefine=true
+					MeshSizeFactor=12
+					QualityRefine=true
+					MinAngle='15deg'
+					UniformityRefine=false
+					MaxRatio=2
+					Smooth=false
+					SmoothingPasses=5
+					UseEdgeMesh=false
+					UseEdgeMeshAbsLength=false
+					EdgeMeshRatio=0.1
+					EdgeMeshAbsLength='1000mm'
+					LayerProjectThickness='0meter'
+					UseDefeature=true
+					UseDefeatureAbsLength=false
+					DefeatureRatio=1e-006
+					DefeatureAbsLength='0mm'
+					InfArrayDimX=0
+					InfArrayDimY=0
+					InfArrayOrigX=0
+					InfArrayOrigY=0
+					InfArraySkew=0
+					DoAdaptive=false
+					Color(R=0, G=0, B=0)
+					SimSetupID=15
+					$begin 'Data'
+						$begin '10 GHz - Radiation Diagram'
+							DataId='Sweep0'
+							Frequencies('10GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 2'
+								Data='10GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=851
+						$end '10 GHz - Radiation Diagram'
+						$begin '9To11'
+							DataId='Sweep0'
+							Frequencies('9.5GHz', '9.52GHz', '9.54GHz', '9.56GHz', '9.58GHz', '9.6GHz', '9.62GHz', '9.64GHz', '9.66GHz', '9.68GHz', '9.7GHz', '9.72GHz', '9.74GHz', '9.76GHz', '9.78GHz', '9.8GHz', '9.82GHz', '9.84GHz', '9.86GHz', '9.88GHz', '9.9GHz', '9.92GHz', '9.94GHz', '9.96GHz', '9.98GHz', '10GHz', '10.02GHz', '10.04GHz', '10.06GHz', '10.08GHz', '10.1GHz', '10.12GHz', '10.14GHz', '10.16GHz', '10.18GHz', '10.2GHz', '10.22GHz', '10.24GHz', '10.26GHz', '10.28GHz', '10.3GHz', '10.32GHz', '10.34GHz', '10.36GHz', '10.38GHz', '10.4GHz', '10.42GHz', '10.44GHz', '10.46GHz', '10.48GHz', '10.5GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 1'
+								Data='LINC 9.5GHz 10.5GHz 51'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=16
+						$end '9To11'
+						$begin 'GA - MG'
+							DataId='Sweep1'
+							Frequencies('9.78GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 9'
+								Data='9.78GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=1346
+						$end 'GA - MG'
+						$begin 'GA -3db - LB'
+							DataId='Sweep0'
+							Frequencies('9.647GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 4'
+								Data='9.647GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=855
+						$end 'GA -3db - LB'
+						$begin 'GA -3db - UB'
+							DataId='Sweep0'
+							Frequencies('10.06GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 3'
+								Data='10.06GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=854
+						$end 'GA -3db - UB'
+						$begin 'RL -10db - LB'
+							DataId='Sweep1'
+							Frequencies('9.821GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 5'
+								Data='9.821GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=856
+						$end 'RL -10db - LB'
+						$begin 'RL -10db - UB'
+							DataId='Sweep1'
+							Frequencies('10.217GHz')
+							GenerateSurfaceCurrent=true
+							FastSweep=false
+							$begin 'Sweeps'
+								Variable='Sweep 6'
+								Data='10.217GHz'
+								OffsetF1=false
+								Synchronize=0
+							$end 'Sweeps'
+							SolutionID=857
+						$end 'RL -10db - UB'
+					$end 'Data'
+				$end 'Setup 1'
+			$end 'Data'
+		$end 'Setup'
+		$begin 'EM properties'
+			$begin 'Data'
+			$end 'Data'
+		$end 'EM properties'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=3
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'SolutionManager'
+			$begin 'SimDataExtractors'
+				$begin 'SimSetup'
+					TypeName='BaseSetup'
+					ID=15
+					Name='Setup 1'
+					$begin 'Solution'
+						ID=16
+						Name='9To11'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=7
+								MoveBackwards=false
+								IDMap(0, 'Z(Port1,Port1)', 1, 'S(Port1,Port1)', 2, 'S(Port1,Port2)', 3, 'S(Port1,Port3)', 4, 'S(Port1,Port4)', 5, 'S(Port1,Port5)', 6, 'GainAccepted')
+							$end 'QuantityIDs'
+							SimValue('S(Port1,Port1)', 2, 90, false, SimValueID=1, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							SimValue('GainAccepted', 1, 90, true, SimValueID=6, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='9.5GHz;9.52GHz;9.54GHz;9.56GHz;9.58GHz;9.6GHz;9.62GHz;9.64GHz;9.66GHz;9.68GHz;9.7GHz;9.72GHz;9.74GHz;9.76GHz;9.78GHz;9.8GHz;9.82GHz;9.84GHz;9.86GHz;9.88GHz;9.9GHz;9.92GHz;9.94GHz;9.96GHz;9.98GHz;10GHz;10.02GHz;10.04GHz;10.06GHz;10.08GHz;10.1GHz;10.12GHz;10.14GHz;10.16GHz;10.18GHz;10.2GHz;10.22GHz;10.24GHz;10.26GHz;10.28GHz;10.3GHz;10.32GHz;10.34GHz;10.36GHz;10.38GHz;10.4GHz;10.42GHz;10.44GHz;10.46GHz;10.48GHz;10.5GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=55
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=47
+									name='Sweep 1:SolutionPointSet 2'
+									CurrentIndex=46
+									SolutionVersion=7226
+									ReportType=0
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'F'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='F'
+												Column='9.5GHz;9.52GHz;9.54GHz;9.56GHz;9.58GHz;9.6GHz;9.62GHz;9.64GHz;9.66GHz;9.68GHz;9.7GHz;9.72GHz;9.74GHz;9.76GHz;9.78GHz;9.8GHz;9.82GHz;9.84GHz;9.86GHz;9.88GHz;9.9GHz;9.92GHz;9.94GHz;9.96GHz;9.98GHz;10GHz;10.02GHz;10.04GHz;10.06GHz;10.08GHz;10.1GHz;10.12GHz;10.14GHz;10.16GHz;10.18GHz;10.2GHz;10.22GHz;10.24GHz;10.26GHz;10.28GHz;10.3GHz;10.32GHz;10.34GHz;10.36GHz;10.38GHz;10.4GHz;10.42GHz;10.44GHz;10.46GHz;10.48GHz;10.5GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 16:Pointset 47:Trace2D 1'
+											X(Desc='F', CatID=1, FuncID=0, IsInteger=false, Units='GHz', X='F')
+											Y(Desc='S(Port1,Port1)', CatID=3, FuncID=11, IsInteger=false, Units='', Y='dB(S(Port1,Port1))')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+								$begin 'SolutionPointSet'
+									ID=51
+									name='Sweep 1:SolutionPointSet 6'
+									CurrentIndex=38
+									SolutionVersion=7226
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'F'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='F'
+												Column='9.5GHz;9.52GHz;9.54GHz;9.56GHz;9.58GHz;9.6GHz;9.62GHz;9.64GHz;9.66GHz;9.68GHz;9.7GHz;9.72GHz;9.74GHz;9.76GHz;9.78GHz;9.8GHz;9.82GHz;9.84GHz;9.86GHz;9.88GHz;9.9GHz;9.92GHz;9.94GHz;9.96GHz;9.98GHz;10GHz;10.02GHz;10.04GHz;10.06GHz;10.08GHz;10.1GHz;10.12GHz;10.14GHz;10.16GHz;10.18GHz;10.2GHz;10.22GHz;10.24GHz;10.26GHz;10.28GHz;10.3GHz;10.32GHz;10.34GHz;10.36GHz;10.38GHz;10.4GHz;10.42GHz;10.44GHz;10.46GHz;10.48GHz;10.5GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90.0000000000002deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'Theta'
+											All=false
+											Indices(38)
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-180deg;-175deg;-170deg;-165deg;-160deg;-155deg;-150deg;-145deg;-140deg;-135deg;-130deg;-125deg;-120deg;-115deg;-110deg;-105deg;-99.9999999999998deg;-94.9999999999998deg;-89.9999999999998deg;-84.9999999999998deg;-79.9999999999998deg;-74.9999999999998deg;-69.9999999999998deg;-64.9999999999998deg;-59.9999999999998deg;-54.9999999999998deg;-49.9999999999998deg;-44.9999999999998deg;-39.9999999999998deg;-34.9999999999998deg;-29.9999999999998deg;-24.9999999999998deg;-19.9999999999998deg;-14.9999999999998deg;-9.99999999999977deg;-4.99999999999977deg;2.27373675443232e-013deg;5.00000000000023deg;10.0000000000002deg;15.0000000000002deg;20.0000000000002deg;25.0000000000003deg;30.0000000000003deg;35.0000000000003deg;40.0000000000003deg;45.0000000000003deg;50.0000000000003deg;55.0000000000003deg;60.0000000000003deg;65.0000000000003deg;70.0000000000003deg;75.0000000000003deg;80.0000000000003deg;85.0000000000003deg;90.0000000000003deg;95.0000000000003deg;100deg;105deg;110deg;115deg;120deg;125deg;130deg;135deg;140deg;145deg;150deg;155deg;160deg;165deg;170deg;175deg;180deg')
+											$end 'SubColumns'
+										$end 'Theta'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 16:Pointset 51:Trace2D 1'
+											X(Desc='F', CatID=1, FuncID=0, IsInteger=false, Units='GHz', X='F')
+											Y(Desc='GainAccepted', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainAccepted)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=851
+						Name='10 GHz - Radiation Diagram'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=2
+								MoveBackwards=false
+								IDMap(0, 'GainInput', 1, 'Directivity')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='10GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=4
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=2
+									name='Sweep 2:SolutionPointSet 3'
+									CurrentIndex=38
+									SolutionVersion=7226
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='10GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 851:Pointset 2:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=854
+						Name='GA -3db - UB'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=1
+								MoveBackwards=false
+								IDMap(0, 'GainInput')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='10.06GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=1
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=0
+									name='10.12 GHz:SolutionPointSet 1'
+									CurrentIndex=35
+									SolutionVersion=7231
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='10.06GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 854:Pointset 0:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=855
+						Name='GA -3db - LB'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=1
+								MoveBackwards=false
+								IDMap(0, 'GainInput')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='9.647GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=1
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=0
+									name='9.32 GHz:SolutionPointSet 1'
+									CurrentIndex=35
+									SolutionVersion=7232
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='9.647GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 855:Pointset 0:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=856
+						Name='RL -10db - LB'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=1
+								MoveBackwards=false
+								IDMap(0, 'GainInput')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='9.821GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=2
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=1
+									name='9.76 GHz:SolutionPointSet 2'
+									CurrentIndex=35
+									SolutionVersion=7228
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='9.821GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 856:Pointset 1:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=857
+						Name='RL -10db - UB'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=1
+								MoveBackwards=false
+								IDMap(0, 'GainInput')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='10.217GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=1
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=0
+									name='10.28 GHz:SolutionPointSet 1'
+									CurrentIndex=35
+									SolutionVersion=7229
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='10.217GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 857:Pointset 0:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+					$begin 'Solution'
+						ID=1346
+						Name='GA - MG'
+						$begin 'SimDataExtractor'
+							$begin 'EnsSweeps'
+								$begin 'PhiSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=3.14159265358979
+									Increment=0.261799387799149
+									CreateIndexedSubsweepFlag=false
+								$end 'PhiSweep'
+								$begin 'ThetaSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.174532925199433
+									CreateIndexedSubsweepFlag=false
+								$end 'ThetaSweep'
+							$end 'EnsSweeps'
+							$begin 'QuantityIDs'
+								NextUniqueID=1
+								MoveBackwards=false
+								IDMap(0, 'GainInput')
+							$end 'QuantityIDs'
+							SimValue('GainInput', 1, 90, true, SimValueID=0, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+							$begin 'Sweeps'
+								$begin 'PostprocessSweep'
+									Variable='Theta'
+									RegularSweep=1
+									Units='deg'
+									Minimum=-3.14159265358979
+									Maximum=3.14159265358979
+									Increment=0.0872664625997165
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'PostprocessSweep'
+									Variable='Phi'
+									RegularSweep=1
+									Units='deg'
+									Minimum=0
+									Maximum=1.5707963267949
+									Increment=1.5707963267949
+									CreateIndexedSubsweepFlag=false
+								$end 'PostprocessSweep'
+								$begin 'Sweep'
+									Variable='F'
+									Column='9.78GHz'
+									Units='GHz'
+								$end 'Sweep'
+							$end 'Sweeps'
+							$begin 'SolutionPointSets'
+								NextUniqueID=1
+								MoveBackwards=false
+								$begin 'SolutionPointSet'
+									ID=0
+									name='9.48 GHz Max nel Gain:SolutionPointSet 1'
+									CurrentIndex=32
+									SolutionVersion=7230
+									ReportType=1
+									SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '')
+									$begin 'SubSweeps'
+										$begin 'Theta'
+											All=true
+											Indices()
+											$begin 'SweepBase'
+												Variable='Theta'
+												RegularSweep=1
+												Units='deg'
+												Minimum=-3.14159265358979
+												Maximum=3.14159265358979
+												Increment=0.0872664625997165
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='-90deg;-89deg;-88deg;-87deg;-86deg;-85deg;-84deg;-83deg;-82deg;-81deg;-80deg;-79deg;-78deg;-77deg;-76deg;-75deg;-74deg;-73deg;-72deg;-71deg;-70deg;-69deg;-68deg;-67deg;-66deg;-65deg;-64deg;-63deg;-62deg;-61deg;-60deg;-59deg;-58deg;-57deg;-56deg;-55deg;-54deg;-53deg;-52deg;-51deg;-50deg;-49deg;-48deg;-47deg;-46deg;-45deg;-44deg;-43deg;-42deg;-41deg;-40deg;-39deg;-38deg;-37deg;-36deg;-35deg;-34deg;-33deg;-32deg;-31deg;-30deg;-29deg;-28deg;-27deg;-26deg;-25deg;-24deg;-23deg;-22deg;-21deg;-20deg;-19deg;-18deg;-17deg;-16deg;-15deg;-14deg;-13deg;-12deg;-11deg;-10deg;-9deg;-8deg;-7deg;-6deg;-5deg;-4deg;-3deg;-2deg;-1deg;0deg;1deg;2deg;3deg;4deg;5deg;6deg;7deg;8deg;9deg;10deg;11deg;12deg;13deg;14deg;15deg;16deg;17deg;18deg;19deg;20deg;21deg;22deg;23deg;24deg;25deg;26deg;27deg;28deg;29deg;30deg;31deg;32deg;33deg;34deg;35deg;36deg;37deg;38deg;39deg;40deg;41deg;42deg;43deg;44deg;45deg;46deg;47deg;48deg;49deg;50deg;51deg;52deg;53deg;54deg;55deg;56deg;57deg;58deg;59deg;60deg;61deg;62deg;63deg;64deg;65deg;66deg;67deg;68deg;69deg;70deg;71deg;72deg;73deg;74deg;75deg;76deg;77deg;78deg;79deg;80deg;81deg;82deg;83deg;84deg;85deg;86deg;87deg;88deg;89deg;90deg')
+											$end 'SubColumns'
+										$end 'Theta'
+										$begin 'Phi'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='Phi'
+												RegularSweep=1
+												Units='deg'
+												Minimum=0
+												Maximum=1.5707963267949
+												Increment=1.5707963267949
+												CreateIndexedSubsweepFlag=false
+											$end 'SweepBase'
+											$begin 'SubColumns'
+												SubsweepColumn(V='0deg;90deg')
+											$end 'SubColumns'
+										$end 'Phi'
+										$begin 'F'
+											All=false
+											Indices(0)
+											$begin 'SweepBase'
+												Variable='F'
+												Column='9.78GHz'
+												Units='GHz'
+											$end 'SweepBase'
+										$end 'F'
+									$end 'SubSweeps'
+									$begin 'Traces'
+										$begin 'Trace2D'
+											name='Design 0:Solution 1346:Pointset 0:Trace2D 1'
+											X(Desc='Theta', CatID=1, FuncID=0, IsInteger=false, Units='deg', X='Theta')
+											Y(Desc='GainInput', CatID=28, FuncID=11, IsInteger=false, Units='', Y='dB(GainInput)')
+										$end 'Trace2D'
+									$end 'Traces'
+									IsFilteredSolutionData=false
+									$begin 'SolutionDensity'
+										Min=1
+										Max=0
+										N_Samples=0
+										Period=0
+										Log=false
+									$end 'SolutionDensity'
+								$end 'SolutionPointSet'
+							$end 'SolutionPointSets'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+				$end 'SimSetup'
+				$begin 'Version ID Map'
+					V=7226
+					$begin 'Setup'
+						N='Setup 1'
+						V=7226
+						Soln(N='9To11', V=7226)
+						Soln(N='10 GHz - Radiation Diagram', V=7226)
+						Soln(N='GA -3db - UB', V=7231)
+						Soln(N='GA -3db - LB', V=7232)
+						Soln(N='RL -10db - LB', V=7228)
+						Soln(N='RL -10db - UB', V=7229)
+						Soln(N='GA - MG', V=7230)
+					$end 'Setup'
+				$end 'Version ID Map'
+			$end 'SimDataExtractors'
+		$end 'SolutionManager'
+		$begin 'InterfaceOptions'
+			SaveSolFilesAsBinary=false
+			LowPriorityForSimulations=false
+			SaveNearFieldSolutions=false
+		$end 'InterfaceOptions'
+		$begin 'AdvancedSettings'
+			AccuracyLevel=2
+			GapPortCalibration=true
+			ReferenceLengthRatio=0.25
+			RefineAreaRatio=4
+			DRCOn=false
+			FastSolverOn=false
+			StartFastSolverAt=6000
+			StartIterativeSolverAt=3000
+			LoopTreeOn=true
+			SingularElementsOn=false
+			UseStaticPortSolver=false
+			UseThinMetalPortSolver=false
+			ComputeBothEvenAndOddCPWModes=false
+			ZeroMetalLayerThickness=4e-005
+			SVDHighCompression=false
+		$end 'AdvancedSettings'
+		$begin 'CurveApproximation'
+			ArcAngle='30deg'
+			StartAzimuth='0deg'
+			UseError=false
+			Error='0meter'
+			MaxPoints=8
+			UnionPolys=false
+		$end 'CurveApproximation'
+		$begin 'CoSimOptions'
+			Override=false
+			Setup=''
+			OverrideSweep=false
+			Sweep=''
+			SweepType=4
+			Interpolate=false
+			YMatrix=true
+			AutoAlignPorts=false
+			InterpAlg='auto'
+		$end 'CoSimOptions'
+		Notes=$begin_cdata$		$end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+	$end 'PlanarEMCircuit'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='PlanarEM1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='PlanarEM1'
+			ID='0'
+			$begin 'PlanarEMItem'
+				$begin 'PostProcessing'
+					$begin 'Fields'
+						$begin 'Items'
+						$end 'Items'
+					$end 'Fields'
+					DesignInstanceID=1
+					$begin 'WindowPosition'
+						$begin 'EditorWindow'
+							Circuit(Schematic(), Layout(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 404, 375), Extent(-5.89395046234131, -2.95415568351746, 8.53572368621826, 3.87489151954651, 5230.15617412502, 5230.1560824118, -0.134884297847748, 0.0745741128921509, 0.0602276474237442, 0.0502853132784367, 1))))
+							'Layout3D Editor'(Editor3d())
+						$end 'EditorWindow'
+						$begin 'ReportWindow'
+							'Return Loss'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 26, 26, 1081, 370))))
+							'10 GHz - Radiation Diagram'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 78, 78, 1133, 422))))
+							'10 GHz - Gain Accepted'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1107, 396))))
+							'GA -3db - UB'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 156, 156, 1211, 500))))
+							'GA -3db - LB'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 0, 0, 1055, 344))))
+							'RL -10db - LB'(Report2D(View(WindowPos(3, -1, -1, -8, -31, 104, 104, 1159, 448))))
+							'RL -10db - UB'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 130, 130, 1185, 474))))
+							'GA - MG'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 26, 26, 1081, 370))))
+						$end 'ReportWindow'
+					$end 'WindowPosition'
+					$begin 'Reports'
+						$begin 'Report2D'
+							name='Return Loss'
+							ReportType=0
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 16:Pointset 47:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='Return Loss'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:49:00>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=22
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='F'
+										AxisLabel='DEFAULT'
+										AxisMax=10600000000
+										AxisMin=9400000000
+										AxisMajorDivision=6
+										AxisMinorDivision=4
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=3
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='GHz'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(S(Port1,Port1)) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=-5
+										AxisMin=-30
+										AxisMajorDivision=5
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'tags'
+									$begin 'taginfo'
+										tagcount=1
+										TagInfo0='428,0,1'
+									$end 'taginfo'
+									$begin 'tagdata'
+										TagDataId=428
+										TagDataTrace1=0
+										TagDataTrace2=0
+										TagDataCount=0
+										TagDataNumber=1
+										TagTracePoint1=25
+										TagOrigTracePoint1=25
+										TagValue1=10000000000
+										TagTracePoint2=-1
+										TagOrigTracePoint2=-1
+										TagValue2=0
+										TagPos1x=3264
+										TagPos1y=4902
+										TagPos2x=0
+										TagPos2y=0
+										TagType=0
+									$end 'tagdata'
+								$end 'tags'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='10 GHz - Radiation Diagram'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 851:Pointset 2:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='10 GHz - Radiation Diagram'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:49:58>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=119
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=20
+										AxisMin=-40
+										AxisMajorDivision=6
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='10 GHz - Gain Accepted'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 16:Pointset 51:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='10 GHz - Gain Accepted'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:56:48>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=5
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='F'
+										AxisLabel='DEFAULT'
+										AxisMax=10600000000
+										AxisMin=9400000000
+										AxisMajorDivision=6
+										AxisMinorDivision=4
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=3
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='GHz'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainAccepted) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=15
+										AxisMin=-5
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='GA -3db - UB'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 854:Pointset 0:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='GA -3db - UB'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:58:12>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=128
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=10
+										AxisMin=-40
+										AxisMajorDivision=5
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='GA -3db - LB'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 855:Pointset 0:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='GA -3db - LB'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:58:23>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=91
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=10
+										AxisMin=-30
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='RL -10db - LB'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 856:Pointset 1:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='RL -10db - LB'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:58:43>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=46
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=20
+										AxisMin=-30
+										AxisMajorDivision=5
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='RL -10db - UB'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 857:Pointset 0:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='RL -10db - UB'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:58:43>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=77
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=10
+										AxisMin=-40
+										AxisMajorDivision=5
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+						$begin 'Report2D'
+							name='GA - MG'
+							ReportType=1
+							DisplayType=1
+							Title=''
+							Domain=''
+							$begin 'Graph2Ds'
+								$begin 'Graph2D'
+									TraceName='Design 0:Solution 1346:Pointset 0:Trace2D 1'
+									Type='Continuous'
+									Axis='Y1'
+								$end 'Graph2D'
+							$end 'Graph2Ds'
+							$begin 'PlotInfo'
+								PlotType='XYPlot'
+								Frozen=false
+								MarkDirty=false
+								Subtitle=''
+								Filename='PlanarEM1'
+								CircuitTitle='<Design>'
+								Title='GA - MG'
+								DateLabel='<15 Jul 2025>'
+								TimeLabel='<20:58:36>'
+								Name='Ansoft Corporation'
+								DefaultTitle=false
+								Arrows=false
+								ZoomMode=false
+								ZoomType=1
+								UserSelectedTrace=-1
+								Rho=0
+								RhoMin=0
+								MarkerType='NoMarker'
+								MarkerScale='Mag-Phase'
+								UserSelectedMarkerPoint=93
+								SymbolDisplay=false
+								SymbolInterval=15
+								$begin 'Axis'
+									$begin 'Axis0'
+										AxisType='XAxis'
+										AxisIndex=0
+										AxisScale='Linear'
+										AxisName='Theta'
+										AxisLabel='DEFAULT'
+										AxisMax=1.74533
+										AxisMin=-1.74533
+										AxisMajorDivision=4
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType='deg'
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis0'
+									$begin 'Axis1'
+										AxisType='YAxis'
+										AxisIndex=1
+										AxisScale='Linear'
+										AxisName='dB(GainInput) [db] '
+										AxisLabel='DEFAULT'
+										AxisMax=20
+										AxisMin=-30
+										AxisMajorDivision=5
+										AxisMinorDivision=5
+										AxisManualRescale=false
+										AxisAutoUnits=true
+										AxisSide='Left'
+										$begin 'Units'
+											UnitFieldWidth=4
+											UnitPrecision=2
+											ScientificNotation=false
+											FullUnitType=''
+										$end 'Units'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'Axis1'
+								$end 'Axis'
+								DisplayMinorGrid=true
+								InitialGrid=1
+								DisplayGridLabel=true
+								DisplayTraceLabel=false
+								$begin 'Trace'
+									$begin 'TraceInfo0'
+										TraceType='Continuous'
+										AutoTraceTitle=''
+										UserTraceTitle=''
+										UseAutoTraceTitle=true
+										$begin 'Attribute'
+											Color=16711680
+											ColorOdd=0
+											LineWidth=10
+											LineStyle=0
+											FillStyle=600
+											Visible=false
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=160
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TraceInfo0'
+								$end 'Trace'
+								$begin 'AllAttributes'
+									BackGroundColor=16777215
+									ContrastColor=16777215
+									$begin 'TitleAttr'
+										$begin 'Attribute'
+											Color=0
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=168
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'TitleAttr'
+									$begin 'MajorGridAttr'
+										$begin 'Attribute'
+											Color=8421504
+											ColorOdd=65535
+											LineWidth=8
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MajorGridAttr'
+									$begin 'MinorGridAttr'
+										$begin 'Attribute'
+											Color=12632256
+											ColorOdd=65535
+											LineWidth=1
+											LineStyle=0
+											FillStyle=0
+											Visible=true
+											$begin 'Font'
+												FaceName='Arial'
+												FontHeight=100
+												FontWeight=700
+												FontOrientation=0
+												FontEscapement=0
+												FontItalics=false
+												FontUnderline=false
+												FontStrikeOut=false
+											$end 'Font'
+										$end 'Attribute'
+									$end 'MinorGridAttr'
+								$end 'AllAttributes'
+							$end 'PlotInfo'
+						$end 'Report2D'
+					$end 'Reports'
+				$end 'PostProcessing'
+			$end 'PlanarEMItem'
+			$begin 'TopLayout'
+				DefaultUnits='mm'
+				DefaultAngleUnits='deg'
+				MajorSize='10mm'
+				MinorSize='1mm'
+				PixelSnapTolerance=20
+				SnapTargetVertex_on=true
+				SnapTargetEdgeCenter_on=true
+				SnapTargetObjCenter_on=true
+				SnapTargetEdge_on=false
+				SnapTargetElecConnection_on=true
+				SnapTargetIntersection_on=false
+				SnapTargetGrid_on=true
+				SnapSourceVertex_on=true
+				SnapSourceEdgeCenter_on=true
+				SnapSourceObjCenter_on=true
+				SnapSourceEdge_on=false
+				SnapSourceElecConnection_on=true
+				ConstrainToGrid=false
+				defaultholesize='25mil'
+				anglesnap='5deg'
+				$begin 'TextStyles'
+					TextStyle(N='<DefaultAnnotation>', F='Arial', Hght=12, Scale=false)
+					TextStyle(N='<DefaultPlotter>', Plot=true, F='RomanSimplex', Hght=5, HghtUnt='mm')
+					TextStyle(N='<DefaultMeasure>', Plot=true, F='RomanSimplex', Hght=10, Scale=false)
+				$end 'TextStyles'
+				$begin 'TraceStyles'
+					TraceStyle(name='Half Grid', size='0.5mm', bendStyle=0, capStyle=1)
+					TraceStyle(name='1 Grid', size='1mm', bendStyle=1, capStyle=0)
+					TraceStyle(name='2 Grids', size='2mm', bendStyle=1, capStyle=1)
+					TraceStyle(name='5 Grids', size='5mm', bendStyle=0, capStyle=2)
+				$end 'TraceStyles'
+				'current via style'='PlanarEMVia'
+				'current pin style'=''
+				MajorColor=16772075
+				MinorColor=16774645
+				ShowGrid=true
+				PageExtent(-0.1, -0.1, 0.1, 0.1)
+				'background color'=16777215
+				DefaultToSketchMode=true
+				fillMode=false
+				'show connection points'=false
+				'draw rats'=true
+				'display vertex labels'=false
+				NetColor=65535
+				'rectangle description'=0
+				snaptoport=true
+				'sym footprint scaling'=0.23625
+				'primary selection color'=255
+				'secondary selection color'=3289780
+				'preview selection'=false
+				AllowDragOnFirstClick=false
+				useFixedDrawingResolution=false
+				DrawingResolution='0.002mm'
+				currentTextStyle=1
+				currentTraceStyle=0
+				prevBounds(-5.89395046234131, -2.95415568351746, 8.53572368621826, 3.87489151954651)
+				prevMapFactor(5230.15617412502, 5230.1560824118)
+				prevOrigin(-0.134884297847748, 0.0745741128921509)
+				prevViewExtent(0.0602276474237442, 0.0502853132784367)
+				prevZoomScale=1
+				$begin 'GerberPageSetup'
+				$end 'GerberPageSetup'
+			$end 'TopLayout'
+		$end 'Instance'
+		$begin 'SODInfo'
+		$end 'SODInfo'
+	$end 'DataInstances'
+$end 'AnsoftProject'

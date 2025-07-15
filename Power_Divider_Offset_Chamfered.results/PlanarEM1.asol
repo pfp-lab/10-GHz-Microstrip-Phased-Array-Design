@@ -1,0 +1,98 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000007, day=000000000003, hour=000000000018, min=000000000046, sec=000000000052)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000008875, lin=000000000077, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Planar EM'
+	CircuitName='PlanarEM1'
+	VersionID=5472
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=5474
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.152mm\' $HL=\'8.634mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.884mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=5091)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.152mm\' $HL=\'8.734mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.884mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=5188)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.152mm\' $HL=\'8.934mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.884mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=5305)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.152mm\' $HL=\'8.934mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.984mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=5473)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.152mm\' $HL=\'9.034mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.884mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=5290)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.838mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.652mm\' $HL=\'8.634mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'1.1346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.884mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=4920)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'8.982mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.359mm\' $HL=\'8.786mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'17.571mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'8.786mm\'', ID=3052)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.113mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.466mm\' $HL=\'8.914mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'17.827mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'8.914mm\'', ID=3170)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.165mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.5095mm\' $HL=\'8.965mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'17.93mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'8.965mm\'', ID=18)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.16mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.5mm\' $HL=\'8.96mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'17.915mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'8.96mm\'', ID=3245)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.338mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.652mm\' $HL=\'9.134mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.268mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.134mm\'', ID=3978)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.345mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.657mm\' $HL=\'9.141mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.282mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.141mm\'', ID=3913)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.366mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.675mm\' $HL=\'9.162mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.273mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.162mm\'', ID=3658)
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $EL=\'8\' $H70=\'9.385mm\' $HCL=\'5mm\' $HEL=\'10mm\' $HHL=\'7.69mm\' $HL=\'9.18mm\' $HLA=\'3mm\' $HLine=\'10mm\' $VHL=\'18.36mm\' $W70=\'0.9346mm\' $WCL=\'2mm\' $WEL=\'3mm\' $WL=\'1.684mm\' $WLA=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\' $YHL=\'9.18mm\'', ID=3354)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $EL=\\\'8\\\' $H70=\\\'8.838mm\\\' $HCL=\\\'5mm\\\' $HEL=\\\'10mm\\\' $HHL=\\\'7.152mm\\\' $HL=\\\'8.934mm\\\' $HLA=\\\'3mm\\\' $HLine=\\\'10mm\\\' $VHL=\\\'18.268mm\\\' $W70=\\\'1.1346mm\\\' $WCL=\\\'2mm\\\' $WEL=\\\'3mm\\\' $WL=\\\'1.984mm\\\' $WLA=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\' $YHL=\\\'9.134mm\\\'\', Solution=-2, VersionID=5472)'='SolutionBlock393'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $EL=\\\'8\\\' $H70=\\\'8.838mm\\\' $HCL=\\\'5mm\\\' $HEL=\\\'10mm\\\' $HHL=\\\'7.152mm\\\' $HL=\\\'8.934mm\\\' $HLA=\\\'3mm\\\' $HLine=\\\'10mm\\\' $VHL=\\\'18.268mm\\\' $W70=\\\'1.1346mm\\\' $WCL=\\\'2mm\\\' $WEL=\\\'3mm\\\' $WL=\\\'1.984mm\\\' $WLA=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\' $YHL=\\\'9.134mm\\\'\', Solution=16, VersionID=5472)'='SolutionBlock392'
+	'SolutionKey(SimSetup=15, Instance=\'SetupDefinition\', Solution=-1, VersionID=5472)'='SolutionBlock391'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=16, VersionID=5472)'='SolutionBlock390'
+$end 'BlockMapName'
+$begin 'SolutionBlock390'
+	SolutionName='9To11'
+	SolutionID=16
+	V=5472
+	$begin 'States'
+		F(VID=5473, Ver=5472)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(9000000000, 9040000000, 9080000000, 9120000000, 9160000000, 9200000000, 9240000000, 9280000000, 9320000000, 9360000000, 9400000000, 9440000000, 9480000000, 9520000000, 9560000000, 9600000000, 9640000000, 9680000000, 9720000000, 9760000000, 9800000000, 9840000000, 9880000000, 9920000000, 9960000000, 10000000000, 10040000000, 10080000000, 10120000000, 10160000000, 10200000000, 10240000000, 10280000000, 10320000000, 10360000000, 10400000000, 10440000000, 10480000000, 10520000000, 10560000000, 10600000000, 10640000000, 10680000000, 10720000000, 10760000000, 10800000000, 10840000000, 10880000000, 10920000000, 10960000000, 11000000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=-1
+	Currents=false
+$end 'SolutionBlock390'
+$begin 'SolutionBlock391'
+	SimSetupID=15
+	SimSetupName='Setup 1'
+	VersionID=5472
+$end 'SolutionBlock391'
+$begin 'SolutionBlock393'
+	$begin 'ProfileGroup'
+		StartInfo='01/07/2025 20:31:18; Host: LAPTOP-6DOGLMU3; Processors: 8; O/S: NT 6.2; Memory: 4095M (821M)'
+		TotalInfo=''
+		ProfileTask('Advanced Settings:', 0, 0, 0, 'Accuracy level 2; Maximum direct solver size is 3000; Maximum iterative solver size is 6000; Maximum number of RHS in block iterative solver reset to 10; ', false, true)
+		ProfileTask('Fast Frequency Sweep', 0, 0, 0, '', false, true)
+		ProfileTask('9.000000', 19, 18, 189364, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('11.000000', 14, 13, 180900, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('9.920000', 14, 13, 180960, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('10.480000', 14, 13, 176688, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('10.660000', 14, 13, 176672, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('9.520000', 13, 13, 176692, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('9.180000', 14, 13, 176652, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('10.820000', 14, 13, 176724, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('10.200000', 14, 13, 176712, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('9.680000', 14, 13, 172476, '1954 Unknowns; 1461 Triangles', true, true)
+		ProfileTask('10.900000', 14, 13, 172448, '1954 Unknowns; 1461 Triangles', true, true)
+	$end 'ProfileGroup'
+$end 'SolutionBlock393'
+$begin 'SolutionBlock392'
+	VariationDataID=-1
+	File='DV5473_S16_V5472.planar'
+$end 'SolutionBlock392'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock392(pos=8773, lin=73, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=5055, lin=26, lvl=0)
+		SolutionBlock390(pos=6271, lin=33, lvl=0)
+		SolutionBlock391(pos=7209, lin=49, lvl=0)
+		SolutionBlock393(pos=7314, lin=54, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=8875, lin=77, lvl=0)
+	$end '$index$'
+$end '$index$'

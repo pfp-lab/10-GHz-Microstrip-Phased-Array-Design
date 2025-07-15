@@ -1,0 +1,104 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000007, day=000000000003, hour=000000000018, min=000000000045, sec=000000000037)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005587, lin=000000000083, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Planar EM'
+	CircuitName='PlanarEM1'
+	VersionID=62
+	PostProcess=true
+	LossLess=true
+	$begin 'PortSettings'
+		$begin ''
+			Deembed='10mm'
+			Termination='50ohm + 0i ohm'
+			Type='Impedance'
+			Reference=''
+		$end ''
+	$end 'PortSettings'
+	NextUniqueID=64
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$DIns=\'2.584\' $DInset=\'2.584mm\' $HLine=\'10mm\' $WLine=\'1.684mm\' $WPatch=\'8.15mm\'', ID=17)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $HLine=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\'\', Solution=-2, VersionID=62)'='SolutionBlock61'
+	'SolutionKey(SimSetup=15, Instance=\'$DIns=\\\'2.584\\\' $DInset=\\\'2.584mm\\\' $HLine=\\\'10mm\\\' $WLine=\\\'1.684mm\\\' $WPatch=\\\'8.15mm\\\'\', Solution=16, VersionID=63)'='SolutionBlock64'
+	'SolutionKey(SimSetup=15, Instance=\'SetupDefinition\', Solution=-1, VersionID=62)'='SolutionBlock63'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=16, VersionID=63)'='SolutionBlock65'
+$end 'BlockMapName'
+$begin 'SolutionBlock65'
+	SolutionName='9To11(51Punti)'
+	SolutionID=16
+	V=63
+	$begin 'States'
+		F(VID=17, Ver=63)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(9000000000, 9020000000, 9040000000, 9060000000, 9080000000, 9100000000, 9120000000, 9140000000, 9160000000, 9180000000, 9200000000, 9220000000, 9240000000, 9260000000, 9280000000, 9300000000, 9320000000, 9340000000, 9360000000, 9380000000, 9400000000, 9420000000, 9440000000, 9460000000, 9480000000, 9500000000, 9520000000, 9540000000, 9560000000, 9580000000, 9600000000, 9620000000, 9640000000, 9660000000, 9680000000, 9700000000, 9720000000, 9740000000, 9760000000, 9780000000, 9800000000, 9820000000, 9840000000, 9860000000, 9880000000, 9900000000, 9920000000, 9940000000, 9960000000, 9980000000, 10000000000, 10020000000, 10040000000, 10060000000, 10080000000, 10100000000, 10120000000, 10140000000, 10160000000, 10180000000, 10200000000, 10220000000, 10240000000, 10260000000, 10280000000, 10300000000, 10320000000, 10340000000, 10360000000, 10380000000, 10400000000, 10420000000, 10440000000, 10460000000, 10480000000, 10500000000, 10520000000, 10540000000, 10560000000, 10580000000, 10600000000, 10620000000, 10640000000, 10660000000, 10680000000, 10700000000, 10720000000, 10740000000, 10760000000, 10780000000, 10800000000, 10820000000, 10840000000, 10860000000, 10880000000, 10900000000, 10920000000, 10940000000, 10960000000, 10980000000, 11000000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=-1
+	Currents=false
+$end 'SolutionBlock65'
+$begin 'SolutionBlock63'
+	SimSetupID=15
+	SimSetupName='Setup 1'
+	VersionID=62
+$end 'SolutionBlock63'
+$begin 'SolutionBlock61'
+	$begin 'ProfileGroup'
+		StartInfo='30/06/2025 01:12:16; Host: LAPTOP-6DOGLMU3; Processors: 8; O/S: NT 6.2; Memory: 4095M (976M)'
+		TotalInfo='30/06/2025 01:12:27'
+		ProfileTask('Advanced Settings:', 0, 0, 0, 'Accuracy level 2; Maximum direct solver size is 3000; Maximum iterative solver size is 6000; Maximum number of RHS in block iterative solver reset to 10; ', false, true)
+		ProfileTask('Fast Frequency Sweep', 0, 0, 0, '', false, true)
+		ProfileTask('9.000000', 2, 1, 123448, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('11.000000', 1, 0, 123388, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.000000', 1, 0, 123416, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.960000', 2, 0, 123464, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('9.600000', 1, 0, 123408, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.340000', 1, 0, 123452, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.660000', 1, 0, 123424, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('9.260000', 2, 1, 123408, '353 Unknowns; 254 Triangles', true, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='30/06/2025 11:55:51; Host: LAPTOP-6DOGLMU3; Processors: 8; O/S: NT 6.2; Memory: 4095M (889M)'
+		TotalInfo=''
+		ProfileTask('Advanced Settings:', 0, 0, 0, 'Accuracy level 2; Maximum direct solver size is 3000; Maximum iterative solver size is 6000; Maximum number of RHS in block iterative solver reset to 10; ', false, true)
+		ProfileTask('Fast Frequency Sweep', 0, 0, 0, '', false, true)
+		ProfileTask('9.000000', 1, 1, 123440, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('11.000000', 1, 0, 123420, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.000000', 1, 0, 123420, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.960000', 1, 0, 123464, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('9.600000', 1, 0, 123444, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.340000', 1, 0, 123440, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('10.660000', 1, 0, 123452, '353 Unknowns; 254 Triangles', true, true)
+		ProfileTask('9.260000', 1, 0, 123488, '353 Unknowns; 254 Triangles', true, true)
+	$end 'ProfileGroup'
+$end 'SolutionBlock61'
+$begin 'SolutionBlock64'
+	VariationDataID=-1
+	File='DV17_S16_V63.planar'
+$end 'SolutionBlock64'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock64(pos=5491, lin=79, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=855, lin=21, lvl=0)
+		SolutionBlock65(pos=1529, lin=28, lvl=0)
+		SolutionBlock63(pos=3093, lin=44, lvl=0)
+		SolutionBlock61(pos=3194, lin=49, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5587, lin=83, lvl=0)
+	$end '$index$'
+$end '$index$'
