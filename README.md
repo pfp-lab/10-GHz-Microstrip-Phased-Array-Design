@@ -1,3 +1,5 @@
+# 10GHz Microstrip Phased Array Design
+
 This repository chronicles the complete journey behind the design and simulation of a 10 GHz phased array antenna using microstrip technology. This is not just a final design file, but a step-by-step path demonstrating how a complex system is built from its simplest components.
 
 The process starts with the fundamentals: the design of a single patch antenna, optimized with the inset feed technique. Subsequently, the focus shifts to the feed network, analyzing how to efficiently divide power first with a T-junction and then with 4-way power dividers, designed for both in-phase and phase-shifted outputs.
